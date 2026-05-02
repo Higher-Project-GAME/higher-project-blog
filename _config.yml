@@ -32,15 +32,8 @@ github_username:  BridgeDeck
 markdown: kramdown
 markdown_ext : "markdown,mkdown,mkdn,mkd,md"
 
-plugins:
-  - jekyll-remote-theme
-
 # Theme
-# remote_theme: riggraz/no-style-please
-# theme: jekyll-theme-leaf
-# remote_theme: ghosind/Jekyll-Paper
-# theme: jekyll-theme-console
-remote_theme: b2a3e8/jekyll-theme-console
+# remote_theme: b2a3e8/jekyll-theme-console
 style : dark
 
 header_pages:
@@ -53,7 +46,8 @@ footer: '<a href="https://github.com/Higher-Project-GAME/higher-project-blog" >H
 
 # plugins:
 #   - jekyll-feed
-
+plugins:
+  - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -62,14 +56,38 @@ footer: '<a href="https://github.com/Higher-Project-GAME/higher-project-blog" >H
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Theme options
+# style: dark # dark (default) or light or hacker
+# listen_for_clients_preferred_style: true # true or false (default)
+
+# Fonts
+# disable_google_fonts: false # set true to prevent loading fonts.googleapis.com
+
+# Tracking (generic, optional; loads only in production)
+# tracking:
+#   script_src:
+#     - https://analytics.example.com/matomo.js
+#   async: true   # default true
+#   defer: false  # default false
+#   # Optional inline init snippet (requires CSP allowance if used)
+#   # init: |
+#   #   var _paq = window._paq = window._paq || [];
+#   #   _paq.push(['trackPageView']);
+#   #   _paq.push(['enableLinkTracking']);
+#   #   _paq.push(['setTrackerUrl', 'https://analytics.example.com/matomo.php']);
+#   #   _paq.push(['setSiteId', '1']);
+#
+# # Extend CSP to allow your tracker sources (script-src/connect-src/img-src as needed)
+# # csp_extra: "script-src 'self' https://analytics.example.com; connect-src 'self' https://analytics.example.com; img-src 'self' https://analytics.example.com;"
