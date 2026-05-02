@@ -33,7 +33,7 @@ markdown: kramdown
 markdown_ext : "markdown,mkdown,mkdn,mkd,md"
 
 plugins:
-  - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Theme
 # remote_theme: riggraz/no-style-please
