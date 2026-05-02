@@ -32,15 +32,15 @@ github_username:  BridgeDeck
 markdown: kramdown
 markdown_ext : "markdown,mkdown,mkdn,mkd,md"
 
-# plugins:
-#   - jekyll-seo-tag
+plugins:
+  - jekyll-seo-tag
 
 # Theme
 # remote_theme: riggraz/no-style-please
 # theme: jekyll-theme-leaf
 # remote_theme: ghosind/Jekyll-Paper
-theme: jekyll-theme-console
-# remote_theme: b2a3e8/jekyll-theme-console
+# theme: jekyll-theme-console
+remote_theme: b2a3e8/jekyll-theme-console
 style : dark
 
 header_pages:
