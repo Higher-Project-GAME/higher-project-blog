@@ -1,6 +1,7 @@
-title: "HIGHERPROJECT"
+title: "HIGHER_PROJECT"
 description: ""
 github_username: BridgeDeck
+url:  "https://higher-project-game.github.io/higher-project-blog/"
 
 plugins:
   - jemoji

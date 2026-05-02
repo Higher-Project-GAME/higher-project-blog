@@ -7,10 +7,11 @@ title: HIGHER_PROJECT.home
 permalink: /
 permalink_name: /
 ---
-Put some nonsense here to advertise the game.
-
+# About Higher Project
+Higher Project is a Fast-paced Roguelite Boomer Shooter.
+You play as THEE, a man (probably?) transported to another world to battle against their sins for as long as they exist. They fight to death, only to be reincarnated to fight even more, as they will not be allowed rest until ~~the Messiah comes back~~ all their sins have been answered to.
 # Installation
-See the [Downloads](./downloads) here. Or [Releases](https://github.com/Higher-Project-GAME/higher-project-blog/releases) on Github. <br>
+See the [Downloads](./downloads) here. Or [Releases](https://github.com/Higher-Project-GAME/higher-project-blog/releases) on Github.
 [User Manual](./usermanual).
 
 # What to expect

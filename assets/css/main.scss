@@ -10,18 +10,23 @@
 :root {
 
   --main-color: white;
-  --bg-color: black;
+  --bg-color: rgb(20, 20, 20);
 
   --text-color: #DDD;
   --pop-color: white;
   --alt-color: #2ed573;
-  --light-alt-color: rgba(46, 213, 115);
+  --light-alt-color: rgb(121, 216, 161);
 
 }
 
 /* BASE */
-body { background-color: var(--bg-color); color: var(--main-color); font-family: 'Roboto Mono', monospace; margin: 0 auto; width: 90%; max-width: 700px; line-height: 2em; font-size: 0.9em; }
-h1, h2, h3, h4, h5, h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 1em; }
+body { background-color: var(--bg-color); color: var(--main-color); font-family: 'Roboto Mono', monospace; margin: 0 auto; width: 90%; max-width: 1024px; line-height: 2em; font-size: 0.9em; }
+h1 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 2.5em; }
+h2 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 2.25em; }
+h3 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 2em; }
+h4 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 1.75em; }
+h5 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 1.5em; }
+h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 1.25em; }
 p, ul, ol { font-size: 1em;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--alt-color); }
 a:hover { color: var(--bg-color); background-color: var(--alt-color); }
@@ -40,6 +45,8 @@ footer { color: var(--text-color);  border-top: dashed 1px rgba(219, 219, 219, 0
 header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
+// footer a { text-decoration: underline;  color: var(--text-color); }
+// footer a:hover { text-decoration: none; color: var(--bg-color); background-color: var(--main-color); font-weight: bold; }
 img.home_header { width: 100%; margin-top: 5%; margin-bottom: 5%; }
 img.detail_header { width: 100%; }
 
@@ -56,7 +63,9 @@ ul :not(.menu) > ul > li:before { content: "*";  margin-right: 9px; }
 .menu ul li { display: inline;  margin-left: 10px; }
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
 .menu ul li a:hover { text-decoration: none; color: var(--bg-color); background-color: var(--main-color); }
-.menu ul li.page_title { text-align: left; margin-left: 10px; float: left; font-weight: bold; color: var(--main-color) }
+.menu ul li.page_title { text-align: left; margin-left: 10px; float: left; font-weight: bold; color: var(--light-alt-color); font-size: 1.5em;}
+.menu ul li.backtoroot a { text-align: center; float: left; font-weight: bold; color: var(--alt-color); border: 1px solid var(--alt-color); width: 150px;}
+.menu ul li.backtoroot a:hover { text-decoration: none; color: var(--bg-color); background-color: var(--alt-color); }
 
 
 /* ERROR PAGES */
