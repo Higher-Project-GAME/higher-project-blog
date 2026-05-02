@@ -14,5 +14,7 @@ You play as THEE, a man (probably?) transported to another world to battle again
 See the [Downloads](./downloads) here. Or [Releases](https://github.com/Higher-Project-GAME/higher-project-blog/releases) on Github.
 [User Manual](./usermanual).
 
-# What to expect
-See the [Roadmap](./roadmap) for what to expect.
+
+# Blog
+## Blogpost 01 May 2026
+Hello World! This is where this stuff begins! Not sure what to put here, just [install the game](./downloads) alright? 
