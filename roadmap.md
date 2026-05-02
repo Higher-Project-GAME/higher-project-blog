@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Roadmap
-permalink: /Roadmap
+title: ROADMAP.doc
+permalink_name: /roadmap
+permalink: /roadmap
 ---
 
 - [ ] v0.1: Quake-like physics implemented

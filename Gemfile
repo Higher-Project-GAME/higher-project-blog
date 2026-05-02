@@ -3,11 +3,10 @@
 source "https://rubygems.org"
 gemspec
 
+# Including GitHub Pages gem
+gem "github-pages", group: :jekyll_plugins
 
-gem 'webrick'
-
-# Use libsass via jekyll-sass-converter 2.x to avoid Dart Sass
-# deprecation warnings for @import during local development.
-# Pin Jekyll to a version compatible with converter 2.x.
-gem 'jekyll', '~> 4.2.2'
-gem 'jekyll-sass-converter', '~> 2.2'
+# Plugins used by the theme
+group :jekyll_plugins do
+  gem 'jemoji'
+end

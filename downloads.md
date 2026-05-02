@@ -1,6 +1,7 @@
 ---
 layout: page
-title: /downloads
+title: DOWNLOADS.archive
+permalink_name: /downloads
 permalink: /downloads
 ---
 

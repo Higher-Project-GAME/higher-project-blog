@@ -1,1 +1,1 @@
-Website built on [jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-console).
+Built on [jekyll-shell-theme](https://github.com/itstorque/jekyll-shell-theme)

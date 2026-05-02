@@ -1,93 +1,23 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: "HIGHERPROJECT"
+description: ""
+github_username: BridgeDeck
 
-title: Higher Project
-email: higherproject@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username:  BridgeDeck
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-markdown: kramdown
-markdown_ext : "markdown,mkdown,mkdn,mkd,md"
+sass:
+  style: compressed
 
-# Theme
-# remote_theme: b2a3e8/jekyll-theme-console
-style : dark
+highlighter: rouge
 
 header_pages:
-  - index.md
   - downloads.md
+  - roadmap.md
   - usermanual.md
-  - Roadmap.md
 
-footer: '<a href="https://github.com/Higher-Project-GAME/higher-project-blog" >HIGHER PROJECT WEBSITE</a>'
+# footer : '<a href="https://github.com/Higher-Project-GAME">HIGHER PROJECT</a>'
 
-# plugins:
-#   - jekyll-feed
-plugins:
-  - jekyll-seo-tag
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Theme options
-# style: dark # dark (default) or light or hacker
-# listen_for_clients_preferred_style: true # true or false (default)
-
-# Fonts
-# disable_google_fonts: false # set true to prevent loading fonts.googleapis.com
-
-# Tracking (generic, optional; loads only in production)
-# tracking:
-#   script_src:
-#     - https://analytics.example.com/matomo.js
-#   async: true   # default true
-#   defer: false  # default false
-#   # Optional inline init snippet (requires CSP allowance if used)
-#   # init: |
-#   #   var _paq = window._paq = window._paq || [];
-#   #   _paq.push(['trackPageView']);
-#   #   _paq.push(['enableLinkTracking']);
-#   #   _paq.push(['setTrackerUrl', 'https://analytics.example.com/matomo.php']);
-#   #   _paq.push(['setSiteId', '1']);
-#
-# # Extend CSP to allow your tracker sources (script-src/connect-src/img-src as needed)
-# # csp_extra: "script-src 'self' https://analytics.example.com; connect-src 'self' https://analytics.example.com; img-src 'self' https://analytics.example.com;"
+# set the size of the text to 'large' or 'small', default is small
+font-size: small

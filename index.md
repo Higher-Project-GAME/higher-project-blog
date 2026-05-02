@@ -3,7 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: /
+title: HIGHER_PROJECT.home
+permalink: /
+permalink_name: /
 ---
 Put some nonsense here to advertise the game.
 
@@ -12,4 +14,4 @@ See the [Downloads](./downloads) here. Or [Releases](https://github.com/Higher-P
 [User Manual](./usermanual).
 
 # What to expect
-See the [Roadmap](./Roadmap) for what to expect.
+See the [Roadmap](./roadmap) for what to expect.
