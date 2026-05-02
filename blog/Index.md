@@ -1,3 +1,9 @@
+---
+layout: page
+title: Blogpost
+permalink: /blog
+---
+
 Read up on the thoughts of the developers.
 
 # Blogpost 01 May 2026

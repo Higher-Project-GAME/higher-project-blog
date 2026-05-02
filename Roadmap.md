@@ -1,3 +1,8 @@
+---
+layout: page
+title: Roadmap
+permalink: /Roadmap
+---
 
 - [ ] v0.1: Quake-like physics implemented
 - [ ] v0.2: HUD, Main Menu and Player Settings improved/added. Also add a Cheat Panel that contains buttons for doing things normally impossible.

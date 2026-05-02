@@ -1,2 +1,9 @@
 # Obsidian.md cache
 /.obsidian
+
+# bundle cache
+/.bundle
+
+/_site
+
+/Gemfile.lock
