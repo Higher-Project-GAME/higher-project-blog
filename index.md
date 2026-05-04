@@ -16,5 +16,12 @@ See the [Downloads](./downloads) here. Or [Releases](https://github.com/Higher-P
 [User Manual](./usermanual).
 
 # Blog
-## Blogpost 01 May 2026
+## Version 0.1
+`Date: 05 May 2026`
+I forgot you are supposed to drum up hype for your releases.
+Anyway just go [get it](./downloads#v01)
+
+## Hello World!
+`Date: 01 May 2026`
+
 Hello World! This is where this stuff begins! Not sure what to put here, just [install the game](./downloads) alright? 
