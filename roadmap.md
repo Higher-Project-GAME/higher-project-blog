@@ -5,7 +5,7 @@ permalink_name: /roadmap
 permalink: /roadmap
 ---
 
-- [ ] v0.1: Quake-like physics implemented
+- [x] v0.1: Quake-like physics implemented
 - [ ] v0.2: HUD, Main Menu and Player Settings improved/added. Also add a Cheat Panel that contains buttons for doing things normally impossible.
 - [ ] v0.3: Implement common ranged and melee threats, and an uncommon threat that is just a clone of the L4D Witch. Also add a Death screen that shows you your stats.
 - [ ] v0.4: Implement unconventional threats, like an entity that kills you when you are touching the ground.

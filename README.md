@@ -1,1 +1,2 @@
 Built on [jekyll-shell-theme](https://github.com/itstorque/jekyll-shell-theme)
+Hosted using Github Pages.
