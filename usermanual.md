@@ -10,6 +10,8 @@ Left Mouse Button: Use Handcannon
 Right Mouse Button: Does nothing
 Space: Jump
 
+ALT: Unlock Mouse
+
 # Movement Mechanics
 
 ## Bunny Hopping
