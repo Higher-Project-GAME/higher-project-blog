@@ -15,7 +15,14 @@ You play as THEE, a man (probably?) transported to another world to battle again
 See the [Downloads](./downloads) here. Or [Releases](https://github.com/Higher-Project-GAME/higher-project-blog/releases) on Github.
 [User Manual](./usermanual).
 
-# Blog
+# Blog 
+Stuff the developer has to say
+
+## Version 0.2
+`Date: 10 May 2026`
+I need to improve the UI more, anyway go [get it](./downloads#v02)
+Will tune down the movement to accomodate combat.
+
 ## Version 0.1
 `Date: 05 May 2026`
 I forgot you are supposed to drum up hype for your releases.

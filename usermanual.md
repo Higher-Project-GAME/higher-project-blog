@@ -13,6 +13,7 @@ Space: Jump
 ALT: Unlock Mouse
 
 # Movement Mechanics
+...
 
 ## Bunny Hopping
 Hold down space to automatically bunnyhop, allowing you to maintain horizontal speed for much longer.
